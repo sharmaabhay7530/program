@@ -1,9 +1,0 @@
-numbers = set(map(int, input("Enter elements (space separated): ").split()))
-
-print("Length of set =", len(numbers))
-
-#input
-#Enter elements (space separated): 1 2 3 4
-
-#output
-#Length of set = 4
