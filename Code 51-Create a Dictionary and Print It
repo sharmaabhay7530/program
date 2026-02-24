@@ -1,0 +1,12 @@
+student = {
+    "name": "Rahul",
+    "age": 21,
+    "course": "MCA"
+}
+
+print("Dictionary:", student)
+
+#input
+#Dictionary: {'name': 'Rahul', 'age': 21, 'course': 'MCA'}
+
+

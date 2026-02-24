@@ -1,0 +1,14 @@
+set1 = set(map(int, input("Enter elements of first set (space separated): ").split()))
+set2 = set(map(int, input("Enter elements of second set (space separated): ").split()))
+
+if set1.issubset(set2):
+    print("Set1 is subset of Set2")
+else:
+    print("Set1 is not subset of Set2")
+    
+#input
+#Enter elements of first set (space separated): 1 2
+#Enter elements of second set (space separated): 1 2 3 4    
+
+#output
+#Set1 is subset of Set2

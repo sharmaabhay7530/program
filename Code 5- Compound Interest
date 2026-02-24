@@ -1,0 +1,15 @@
+p = float(input("Enter Principal: "))
+r = float(input("Enter Rate: "))
+t = float(input("Enter Time: "))
+
+amount = p * (1 + r/100) ** t
+ci = amount - p
+
+print("Compound Interest =", ci)
+
+#output
+#Enter Principal: 1000
+#Enter Rate: 5
+#Enter Time: 2
+#output
+#Compound Interest = 102.5

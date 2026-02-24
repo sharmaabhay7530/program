@@ -1,0 +1,9 @@
+string = input("Enter a string: ")
+
+print("Lowercase =", string.lower())
+
+#input
+#Enter a string: Hello, World!
+
+#output
+#Lowercase = hello, world!

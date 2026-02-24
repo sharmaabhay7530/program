@@ -1,0 +1,15 @@
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+while b:
+    a, b = b, a % b
+
+print("GCD =", a)
+
+    #input
+    #Enter first number: 48
+    #Enter second number: 18
+    
+    #output
+    #GCD = 6
+    

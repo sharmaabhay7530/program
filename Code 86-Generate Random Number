@@ -1,0 +1,15 @@
+import random
+
+start = int(input("Enter start range: "))
+end = int(input("Enter end range: "))
+
+num = random.randint(start, end)
+
+print("Random number =", num)
+
+#input
+#Enter start range: 1
+#Enter end range: 100
+
+#output
+#Random number = 42

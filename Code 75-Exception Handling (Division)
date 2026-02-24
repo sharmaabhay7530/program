@@ -1,0 +1,17 @@
+try:
+    a = int(input("Enter numerator: "))
+    b = int(input("Enter denominator: "))
+    result = a / b
+    print("Result =", result)
+except ZeroDivisionError:
+    print("Cannot divide by zero")
+except ValueError:
+    print("Invalid input")
+
+    #input
+    #Enter numerator: 10
+    #Enter denominator: 0
+    
+    #output
+    #Cannot divide by zero
+    

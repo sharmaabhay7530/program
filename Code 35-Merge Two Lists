@@ -1,0 +1,29 @@
+n1 = int(input("Enter number of elements in first list: "))
+list1 = []
+
+for i in range(n1):
+    num = int(input("Enter element: "))
+    list1.append(num)
+
+n2 = int(input("Enter number of elements in second list: "))
+list2 = []
+
+for i in range(n2):
+    num = int(input("Enter element: "))
+    list2.append(num)
+
+merged = list1 + list2
+print("Merged list =", merged)
+
+#input
+#Enter number of elements in first list: 3
+#Enter element: 10
+#Enter element: 20
+#Enter element: 30
+#Enter number of elements in second list: 3
+#Enter element: 40
+#Enter element: 50
+#Enter element: 60
+
+#output
+#Merged list = [10, 20, 30, 40, 50, 60]

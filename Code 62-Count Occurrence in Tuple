@@ -1,0 +1,10 @@
+numbers = (1, 2, 2, 3, 4, 2, 5)
+
+num = int(input("Enter number to count: "))
+print("Count =", numbers.count(num))
+
+#input
+#Enter number to count: 2
+
+#output
+#Count = 3

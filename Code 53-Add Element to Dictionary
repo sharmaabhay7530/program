@@ -1,0 +1,13 @@
+student = {
+    "name": "Rahul",
+    "age": 21
+}
+
+student["course"] = "MCA"
+
+print("Updated Dictionary:", student)
+
+#input
+#Updated Dictionary: {'name': 'Rahul', 'age': 21, 'course': 'MCA'}
+#output
+#Updated Dictionary: {'name': 'Rahul', 'age': 21, 'course': 'MCA'}

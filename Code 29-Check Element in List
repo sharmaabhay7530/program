@@ -1,0 +1,27 @@
+n = int(input("Enter number of elements: "))
+arr = []
+
+for i in range(n):
+    num = int(input("Enter element: "))
+    arr.append(num)
+
+key = int(input("Enter element to search: "))
+
+if key in arr:
+    print("Element found")
+else:
+    print("Element not found")
+    
+    #input
+    #Enter number of elements: 5
+    #Enter element: 10
+    #Enter element: 20
+    #Enter element: 30
+    #Enter element: 40
+    #Enter element: 50
+    #Enter element to search: 30
+    
+    #output
+    #Element found
+    
+    

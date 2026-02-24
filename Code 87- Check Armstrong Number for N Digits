@@ -1,0 +1,21 @@
+num = int(input("Enter a number: "))
+temp = num
+order = len(str(num))
+sum_val = 0
+
+while temp > 0:
+    digit = temp % 10
+    sum_val += digit ** order
+    temp //= 10
+
+if sum_val == num:
+    print("Armstrong Number")
+else:
+    print("Not Armstrong Number")
+
+    #input
+    #Enter a number: 153
+    
+    #output
+    #Armstrong Number
+    

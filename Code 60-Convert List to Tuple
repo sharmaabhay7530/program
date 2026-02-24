@@ -1,0 +1,11 @@
+numbers = [1, 2, 3, 4, 5]
+
+tuple_numbers = tuple(numbers)
+
+print("Tuple:", tuple_numbers)
+
+#input
+#Tuple: (1, 2, 3, 4, 5)
+
+#output
+#Tuple: (1, 2, 3, 4, 5)

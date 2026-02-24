@@ -1,0 +1,9 @@
+string = input("Enter a string: ")
+
+print("Length of string =", len(string))
+
+#input
+#Enter a string: Hello, World!
+
+#output
+#Length of string = 13

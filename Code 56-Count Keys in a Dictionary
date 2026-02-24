@@ -1,0 +1,8 @@
+student = {
+    "name": "Rahul",
+    "age": 21,
+    "course": "MCA"
+}
+
+print("Number of keys =", len(student))
+

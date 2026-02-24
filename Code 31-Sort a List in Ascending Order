@@ -1,0 +1,20 @@
+n = int(input("Enter number of elements: "))
+arr = []
+
+for i in range(n):
+    num = int(input("Enter element: "))
+    arr.append(num)
+
+arr.sort()
+print("Sorted list =", arr)
+
+#input
+#Enter number of elements: 5
+#Enter element: 30
+#Enter element: 10
+#Enter element: 50
+#Enter element: 20
+#Enter element: 40
+
+#output
+#Sorted list = [10, 20, 30, 40, 50]

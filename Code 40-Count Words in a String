@@ -1,0 +1,10 @@
+string = input("Enter a sentence: ")
+
+words = string.split()
+print("Number of words =", len(words))
+
+#input
+#Enter a sentence: Hello, World!
+
+#output
+#Number of words = 2

@@ -1,0 +1,13 @@
+set1 = set(map(int, input("Enter elements of first set (space separated): ").split()))
+set2 = set(map(int, input("Enter elements of second set (space separated): ").split()))
+
+result = set1.difference(set2)
+
+print("Difference =", result)
+
+#input
+#Enter elements of first set (space separated): 1 2 3
+#Enter elements of second set (space separated): 3 4 5
+
+#output
+#Difference = {1, 2}

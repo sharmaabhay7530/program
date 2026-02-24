@@ -1,0 +1,14 @@
+filename = input("Enter file name: ")
+data = input("Enter text to write: ")
+
+with open(filename, "w") as file:
+    file.write(data)
+
+print("Data written successfully")
+
+#input
+#Enter file name: output.txt
+#Enter text to write: Hello, World!
+
+#output
+#Data written successfully

@@ -1,0 +1,11 @@
+binary = input("Enter a binary number: ")
+
+decimal = int(binary, 2)
+
+print("Decimal representation =", decimal)
+
+#input
+#Enter a binary number: 1010
+
+#output
+#Decimal representation = 10
